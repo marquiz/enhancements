@@ -460,12 +460,12 @@ in back-to-back releases.
 
 - [ ] Feature implemented, with the feature gate enabled by default.
 - [ ] Released versions of CRI-O and containerd runtime implementations support the feature
-- [ ] Drop fallback to old behavior. CRI implementations expected to have support.
+- [ ] Record an Event into the API that runtime should be upgraded.
 
 #### GA
 
 - [ ] No bugs reported in the previous cycle.
-- [ ] Remove fallback behavior
+- [ ] Remove fallback behavior. CRI implementations expected to have support.
 - [ ] Remove feature gate
 
 ### Upgrade / Downgrade Strategy
